@@ -2,9 +2,9 @@ FROM alpine
 
 RUN apk add --update nodejs
 
-COPY . /src
+COPY src/ /app
 
-WORKDIR /src
+WORKDIR /app
 
 CMD node main.js
 
