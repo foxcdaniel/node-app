@@ -2,7 +2,7 @@ FROM alpine
 
 RUN apk add --update nodejs
 
-COPY ./src/ /app
+COPY src/ /app
 
 WORKDIR /app
 
