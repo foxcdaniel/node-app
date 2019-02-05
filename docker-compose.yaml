@@ -4,6 +4,3 @@ services:
     image: foxcdaniel/tech-test:latest
     ports:
      - "80:8081"
-  # db:
-  #   image: mysql:5.5 #Example backend
-    
